@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5B0F6E6C-03B1-49DE-B0B6-9433F79803F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>csu_</RootNamespace>
+    <RootNamespace>csu</RootNamespace>
     <AssemblyName>csu!</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
